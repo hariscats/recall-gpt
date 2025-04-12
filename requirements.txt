@@ -1,0 +1,27 @@
+fastapi>=0.100.0
+pydantic>=2.0.0
+uvicorn>=0.22.0
+python-dotenv>=1.0.0
+semantic-kernel>=0.3.10.dev
+azure-core>=1.28.0
+opentelemetry-api>=1.18.0
+opentelemetry-sdk>=1.18.0
+opentelemetry-instrumentation-fastapi>=0.39b0
+opentelemetry-exporter-otlp>=1.18.0
+loguru>=0.7.0
+python-multipart>=0.0.6
+pytest>=7.3.1
+pytest-asyncio>=0.21.0
+httpx>=0.24.1
+# Added dependencies for this project
+email-validator>=2.0.0  # For email validation in Pydantic models
+uuid>=1.30           # For UUID generation
+starlette>=0.27.0    # FastAPI dependency
+pydantic-settings>=2.0.0  # For settings management
+aiofiles>=23.1.0     # For async file operations
+requests>=2.31.0     # For HTTP requests
+jinja2>=3.1.2        # For templating if needed
+python-jose>=3.3.0   # For JWT tokens (future auth implementation)
+bcrypt>=4.0.1        # For password hashing (future auth implementation)
+pymongo>=4.5.0       # Optional - for MongoDB integration
+sqlalchemy>=2.0.0    # Optional - for SQL database integration

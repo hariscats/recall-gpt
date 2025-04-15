@@ -1,10 +1,10 @@
 # AI Learning Assistant
 
-An AI-powered learning assistant app that implements active recall and spaced repetition techniques to optimize learning and retention. This is a minimal sample implementation to demonstrate the core concepts.
+An AI-powered learning assistant app that implements active recall and spaced repetition techniques to optimize learning and retention.
 
 ## Project Overview
 
-This project provides a simplified starting point for building an AI-powered learning assistant. The application demonstrates:
+This project provides a simplified starting point for building an AI-powered learning assistant. The app demonstrates:
 
 - Backend API built with FastAPI
 - Frontend UI built with React

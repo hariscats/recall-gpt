@@ -55,14 +55,31 @@ The API will be available at http://127.0.0.1:8000
    cd frontend
    ```
 
-2. Install dependencies:
+2. Using the startup script (recommended):
+   
+   For PowerShell:
+   ```powershell
+   .\start-app.ps1
    ```
-   npm install
+   
+   For Command Prompt:
+   ```cmd
+   start-app
    ```
+   
+   These scripts will automatically:
+   - Install required dependencies
+   - Skip problematic postinstall scripts
+   - Verify react-scripts installation
+   - Start the development server
 
-3. Run the development server:
+   **Note:** The startup scripts handle Node.js path issues and ensure reliable execution.
+
+3. Alternatively, for manual installation:
    ```
-   npm start
+   npm config set ignore-scripts true
+   npm install
+   node node_modules\react-scripts\bin\react-scripts.js start
    ```
 
 The frontend will be available at http://localhost:3000

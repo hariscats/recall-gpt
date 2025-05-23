@@ -18,11 +18,16 @@ const Sidebar = () => {
               <i className="icon">📚</i>
               <span>Learning Materials</span>
             </NavLink>
-          </li>
-          <li>
+          </li>          <li>
             <NavLink to="/sessions" className={({ isActive }) => isActive ? 'active' : ''}>
               <i className="icon">🧠</i>
               <span>Study Sessions</span>
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/active-recall" className={({ isActive }) => isActive ? 'active' : ''}>
+              <i className="icon">🎯</i>
+              <span>Active Recall</span>
             </NavLink>
           </li>
           <li>

@@ -12,6 +12,7 @@ import Dashboard from './pages/Dashboard';
 import LearningMaterials from './pages/LearningMaterials';
 import Sessions from './pages/Sessions';
 import Profile from './pages/Profile';
+import ActiveRecall from './pages/ActiveRecall';
 import NotFound from './pages/NotFound';
 
 function App() {
@@ -21,11 +22,11 @@ function App() {
         <Header />
         <div className="main-container">
           <Sidebar />
-          <main className="content">
-            <Routes>
+          <main className="content">            <Routes>
               <Route path="/" element={<Dashboard />} />
               <Route path="/materials" element={<LearningMaterials />} />
               <Route path="/sessions" element={<Sessions />} />
+              <Route path="/active-recall" element={<ActiveRecall />} />
               <Route path="/profile" element={<Profile />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
